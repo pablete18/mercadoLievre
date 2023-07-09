@@ -17,3 +17,7 @@ header{
     background-color: var(--colorAmarillo);
     display:block
 }
+footer{
+    background-color: var(--colorGrisClaro);
+    margin:100px ;
+}
