@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color:var(--colorGrisClaro);
+    background-color:var(--colorGrisOscuro);
     font-family: 'Roboto', sans-serif;
     text-align: center;
     box-sizing: border-box;
@@ -19,5 +19,8 @@ header{
 }
 footer{
     background-color: var(--colorGrisClaro);
-    margin:100px ;
+    padding: 100px 40px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
 }

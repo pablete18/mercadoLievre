@@ -1,0 +1,11 @@
+.Footer__section i{
+    color: var(--colorCeleste);
+}
+.Footer__section p{
+    font-weight: lighter;
+}
+.Footer__span{
+    text-align: left;
+    padding-right: 30px;
+    
+}
