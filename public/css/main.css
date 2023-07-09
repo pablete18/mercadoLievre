@@ -1,0 +1,51 @@
+.Main__section__article{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: var(--colorGrisClaro);
+    border-top: solid 1px ;
+    border: 15px;
+}
+.Main__section__h1{
+    font-size: 24px;
+    text-align: left;
+}
+.Main__section__article__img{
+    width: 100%;
+}
+.Main__section__article__truck{
+    width: 40px;
+    height: 40px;
+    border: solid 1px var(--colorVerde);
+    border-radius: 50%;
+}
+.Main__section__article__precios{
+    margin-bottom: 0px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Main__section__article__descuentos{
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: left;
+    color: var(--colorVerde);
+}
+.Main__section__article__descripcion{
+    text-align: left;
+    font-size: 16px; 
+    font-weight: lighter;
+}
+/* TABLETS */
+@media (min-width: 361px){
+    .Main__section__article{
+
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+    }
+/* DESKTOP */
+@media (min-width: 769px){
+    .Main__section__article{
+
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+    }

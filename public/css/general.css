@@ -5,9 +5,12 @@
     --colorGrisOscuro: #666;
     --colorGrisClaro: #ebebeb;
     --colorVerde: #39b54a;
+    --cuerpo-de-texto: 12px;
+    
+   ;
 }
 
-body {
+body{
     background-color:var(--colorGrisOscuro);
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -15,7 +18,13 @@ body {
 }
 header{
     background-color: var(--colorAmarillo);
-    display:block
+    display:block;
+}
+main{
+    display: inline-block;
+    width: 90%;
+    align-content: center;
+    border: 10px;
 }
 footer{
     background-color: var(--colorGrisClaro);

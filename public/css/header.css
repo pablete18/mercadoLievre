@@ -57,3 +57,11 @@
 .Header__img-banner{
     width: 100%;
 }
+/* TABLETS */
+@media (min-width: 361px){
+
+}
+/* DESKTOP */
+@media (min-width: 769px){
+
+}
