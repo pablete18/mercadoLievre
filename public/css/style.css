@@ -1,4 +1,7 @@
+
+@import './normalize.css';
 @import './general.css';
+@import './header.css';
 
 /* body {
     background-color: #ebebeb;

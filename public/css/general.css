@@ -11,4 +11,9 @@ body {
     background-color:var(--colorGrisClaro);
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    box-sizing: border-box;
+}
+header{
+    background-color: var(--colorAmarillo);
+    display:block
 }
