@@ -34,16 +34,25 @@
     font-weight: lighter;
 }
 .Header__ul--navbar{
+    display: none;
     list-style: none;
     text-align: start;
     padding-left: 0px;
 }
 .Header__ul--loginbar{
+    display: none;
     list-style:none;
     text-align: start;
     padding-left: 0px;
 }
+.Header__ul--navbar li{
+    display: none;
+}
+.Header__ul--loginbar li{
+    display: none;
+}
 .Header__div__burger-menu{
+    display:block;
     margin: 20px 200px;
     background-color: var(--colorCeleste);
     width: 35px;
@@ -59,9 +68,33 @@
 }
 /* TABLETS */
 @media (min-width: 361px){
+    .Header__div__burger-menu{
+        display:none;
+    }
+    .Header__ul--navbar{
+        display: block;
+        list-style: none;
+        text-align: start;
+        padding-left: 0px;
+    }
+    .Header__ul--loginbar{
+        display: block;
+        list-style:none;
+        text-align: start;
+        padding-left: 0px;
+    }
 
 }
 /* DESKTOP */
 @media (min-width: 769px){
+    .Header__div__burger-menu{
+        display:none;
+    }
+    .Header__ul--navbar li{
+        display: inline-block;
+    }
+    .Header__ul--loginbar li{
+    display: inline-block;
+    }
 
 }

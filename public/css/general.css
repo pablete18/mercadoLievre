@@ -33,3 +33,11 @@ footer{
     margin-right: 5px;
     border-radius: 5px;
 }
+/* TABLETS */
+@media (min-width: 361px){
+
+}
+/* DESKTOP */
+@media (min-width: 769px){
+    
+}
