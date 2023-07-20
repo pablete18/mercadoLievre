@@ -1,11 +1,20 @@
+.article__container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
 .Main__section__article{
-    margin: 10px auto;
+    position: relative;
+    width: (50% - 40px);
+    margin: 10px ;
     padding: 10px;
     background-color: var(--colorGrisClaro);
-    border-top: solid 1px ;
+    /* border-top: solid 1px ; */
     border: 15px;
 }
 .Main__section__h1{
+    margin: 10px;
     font-size: 24px;
     text-align: left;
 }
@@ -13,52 +22,72 @@
     width: 100%;
 }
 .Main__section__article__truck{
-    width: 40px;
-    height: 40px;
-    border: solid 1px var(--colorVerde);
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
     border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 400px;
 }
-.Main__section__article__precios{
-    margin-bottom: 0px;
+.main__section__article__div{
+    display:flex;
+    flex-wrap: nowrap;
+    margin:10px;
+    
+}
+.Main__section__article__div__precios{
+    width: 30%;
+    margin:0;
     text-align: left;
     font-weight: bold;
     font-size: 18px;
 }
-.Main__section__article__descuentos{
-    margin-top: 0px;
+.Main__section__article__div__descuentos{
+    width: 70%;
+    margin:0;
     font-size: 16px;
     text-align: left;
     color: var(--colorVerde);
 }
 .Main__section__article__descripcion{
-    display: none;
-   /*  text-align: left;
+    text-align: left;
     font-size: 16px; 
-    font-weight: lighter; */
+    font-weight: lighter; 
+    margin: 10px;
 }
 /* TABLETS */
-@media (min-width: 361px){
+@media (min-width: 769px){
+    .article__container{
+        width: 50%;
+    }
     .Main__section__article{
-
+     width: calc(50% - 20px);
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
         }
-    .Main__section__article__descripcion{
+    
+  /*   .Main__section__article__descripcion{
             display: inline-block;
             text-align: left;
             font-size: 16px; 
             font-weight: lighter;
-        }
+        } */
     }
 /* DESKTOP */
-@media (min-width: 769px){
+@media (min-width: 1024px){
     .Main__section__article{
+        width: calc(25% - 20px);
 
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
         }
-        .Main__section__article__descripcion{
+       /*  .Main__section__article__descripcion{
             display: inline-block;
             text-align: left;
             font-size: 16px; 
             font-weight: lighter;
-        }
+        } */
     }
