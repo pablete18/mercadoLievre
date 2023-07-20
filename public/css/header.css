@@ -75,6 +75,8 @@
     color: var(--colorGrisClaro);
 }
 .Header__img-banner{
+    display: flex;
+    align-items: flex-end;
     width: 100%;
 }
 /* TABLETS */
@@ -82,17 +84,22 @@
     .Header__div__burger-menu{
         display:none;
     }
+    .Header__ul--container{
+        display: flex;
+        justify-content: space-between;
+    }
     .Header__ul--navbar{
-        display: block;
-        list-style: none;
+        display: flex;
+        z-index: 10;
+        /* list-style: none;
         text-align: start;
-        padding-left: 0px;
+        padding-left: 0px; */
     }
     .Header__ul--loginbar{
-        display: block;
-        list-style:none;
+        display: flex;
+        /* list-style:none;
         text-align: start;
-        padding-left: 0px;
+        padding-left: 0px; */
     }
 
 }
@@ -101,11 +108,17 @@
     .Header__div__burger-menu{
         display:none;
     }
+    .Header__ul--container{
+        display: flex;
+        justify-content: space-between;
+    }
     .Header__ul--navbar li{
-        display: inline-block;
+       display: inline-block;
+       padding: 10px;
     }
     .Header__ul--loginbar li{
-    display: inline-block;
+        display: inline-block;
+        padding: 10px;
     }
 
 }
