@@ -1,0 +1,19 @@
+.main__section{
+    background-color: var(--colorGrisClaro);
+    padding-bottom: 100px;
+
+}
+.main__section form{
+    display: flex;
+    align-items: stretch;
+}
+.main__section__form--label{
+    padding: 10px;
+    margin: 10px;
+}
+.main__section__form__input{
+    border-radius: 5px;
+    border: solid 1px var(--colorCeleste);
+    padding: 10px;
+    margin: 10px
+}
