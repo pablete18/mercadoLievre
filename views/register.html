@@ -17,24 +17,43 @@ rel="stylesheet" />
 
     </header>
     <main>
+        <section class="main__section">
         <h1>Registrate</h1>
         <form action="/registro" method="POST">
+            
+         <label class="main__section__form--label">
+
+            <input type="text"class="main__section__form__input" placeholder="Nombre y Apellido"required>
+            
+        </label>
+        <label class="main__section__form--label">
+
+            <input type="text" class="main__section__form__input"placeholder="Domicilio" required>
+            
+        </label>
+       <label class="main__section__form--label">
+
+            <input type="text"class="main__section__form__input" placeholder="Nombre de Usuario" required>
+            
+        </label>
+        <label class="main__section__form--label">
+
+            <input type="password" class="main__section__form__input"placeholder="Contraseña" id="contraseña">
+            
+        </label>
+        
          
-        <label for="nombre">Nombre y Apellido</label>
-        <input type="text" name="nombre" id="nombre" required>
+          <label class="main__section__form--label">
 
-        <label for="usuario">Nombre de Usuario</label>
-        <input type="text" name="usuario" id="usuario" required>
+            <input type="password" class="main__section__form__input" placeholder="Confirmar contraseña" id="Confirmar contraseña" required>
+            
+        </label>
+       
+        <div class="main__section__div">
+        <p>Fecha de nacimiento</p>
+        <input type="date" name="fecha" id="fecha" required>
 
-        <label for="fecha">Fecha de nacimiento</label>
-        <input type="text" name="fecha" id="fecha" required>
-
-        <label for="domicilio">Domicilio</label>
-        <input type="text" name="domicilio" id="domicilio" required>
-
-        <label for="domicilio">Domicilio</label>
-        <input type="text" name="domicilio" id="domicilio" required>
-
+        <article class="main__section__div__article">
         <p>Perfil de usuario</p>
         <input type="radio" name="perfil_usuario" id="comprar">
         <label for="comprar">comprar</label>
@@ -52,18 +71,14 @@ rel="stylesheet" />
         <label for="jugueteria">Jugueteria</label>
         <input type="checkbox" name="categorias" id="vida_sana">
         <label for="vida_sana">Vida sana</label>
+        </article>
 
-        <label for="foto_usuario">Foto usuario</label>
-        <input type="file" name="foto_usuario" id="foto_usuario">
+        <p>Foto usuario</p>
+        <input class="main__section__div__input--usuario"type="file" name="foto_usuario" id="foto_usuario">
 
-         
-        <label for="contrasena">Contraseña:</label>
-        <input type="password" id="contrasena" name="contrasena" required>
- 
-         
-        <label for="confirmar_contrasena">Confirmar contraseña:</label>
-        <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required>
- 
+        </div>
+
+        </section>
         
         <button type="submit">Enviar</button>
  
