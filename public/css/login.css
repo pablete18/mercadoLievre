@@ -18,9 +18,12 @@
     margin: 10px
 }
 
-button{
-    background-color: green;
+.div__button{
+    background-color: var(--colorGrisClaro);
 }
-button :hover{
+.div__button button{
+    background-color: blueviolet;
+}
+.div__button:hover button{
     background-color: #0022AA;
 }
