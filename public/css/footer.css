@@ -13,7 +13,16 @@
 /* @media (min-width: 361px){
 
 } */
-/* DESKTOP */
-/* @media (min-width: 769px){
+/*  DESKTOP  */
+@media (min-width: 1024px){
+    .Footer__section{
+        display: flex;
+        flex:wrap;
+    }
+    .div__card{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
-} */
+} 

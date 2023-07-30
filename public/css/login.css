@@ -17,3 +17,10 @@
     padding: 10px;
     margin: 10px
 }
+
+button{
+    background-color: green;
+}
+button :hover{
+    background-color: #0022AA;
+}
