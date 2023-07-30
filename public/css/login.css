@@ -17,3 +17,6 @@
     padding: 10px;
     margin: 10px
 }
+.div__button{
+    background-color: var(--colorGrisClaro);
+}
