@@ -6,11 +6,13 @@
 }
 .Main__section__article{
     position: relative;
-    width: (50% - 40px);
+    z-index: auto;
+    width: 100%;
     margin: 10px ;
     padding: 10px;
     background-color: var(--colorGrisClaro);
     border: 15px;
+    width: 100%;
     
 }
 .Main__section__h1{
@@ -32,7 +34,7 @@
     border-radius: 50%;
     position: absolute;
     right: 20px;
-    top: -15px;
+    top: 290px;
     }
 .main__section__article__div{
     display:flex;
@@ -84,26 +86,50 @@
 }
 
 /* TABLETS */
-@media (min-width: 768px){
-    .article__container{
-        width: 50%;
-    }
-    .Main__section__article{
-     width: calc(50% - 20px);
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        }
-   
 
+    @media (min-width: 768px){
+       
+        .article_container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        
+        }
+        .Main__section__article__truck {
+            top: 320px;
+        }
+        .Main__section__article{
+            width: calc(50% - 40px);
+            margin: 0px 10px 10px;
+            box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+        }
+        .Main__section__article__div__descripcion{
+            margin-left: 20px;
+        }
     }
+
+
 /* DESKTOP */
-@media (min-width: 1024px){
-    .Main__section__article{
-        width: calc(25% - 20px);
 
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    @media (min-width: 1024px){
+        .article_container{
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+        
         }
-     .Main__section__article__div__descripcion{
-        margin-left: 20px;
-     }
-          
+        .Main__section__article__truck {
+            top: 220px;
+        }
+        .Main__section__article{
+            width: calc(25% - 20px);
+            margin: 0px 10px 10px;
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+        .Main__section__article__div__descripcion{
+            margin-left: 20px;
+        }
+        .Main__section__article__div__descuentos{
+           padding-left: 20px;
+        }
     }
