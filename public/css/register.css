@@ -1,21 +1,21 @@
-.main__section{
+.main__section1{
     background-color: var(--colorGrisClaro);
     padding-bottom: 10px;
 
 }
-.main__section h1{
+.main__section1 h1{
     border-bottom: solid 2px var(--colorCeleste);
     padding: 10px;
 }
-.main__section form{
+.main__section1 form{
+    background-color: var(--colorGrisClaro);
     margin: 20px;
     padding: 10px;
 }
 
-.main__section form label{
-    display: flex;
-    flex-direction: column;
-
+.main__section__form--label1{
+    display: block;
+    /* flex-direction:column; */
     margin: 10px;
 }
 .main__section__form__div input{
@@ -43,6 +43,10 @@
     border-bottom: solid 1px var(--colorCeleste);
     padding-bottom: 5px;
 }
+.input__label{
+    display: flex;
+    align-self: center;
+}
 .main__section__div__article input{
     display: inline-block;
     vertical-align: middle;
@@ -52,7 +56,7 @@
 .main__section__div__article label{
     display: inline-block;
     vertical-align: middle;
-    margin: 0;
+    margin: 30px 10px 10px;
     position: relative;
     bottom: 27px;
     left: 10px;
@@ -61,6 +65,9 @@
     width: 100%;
     border-radius: 5px;
 
+}
+.div__buttons1{
+    background-color: var(--colorGrisClaro);
 }
 button{
     margin: 15px;
